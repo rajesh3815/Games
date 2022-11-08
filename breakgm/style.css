@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+}
+#grid{
+    position: absolute;
+    width:560px ;
+    height: 300px;
+    border: 2px solid black;
+    background-image: url(gree.jpg);
+    box-shadow: 13px 3px 61px #c51b96;;
+}
+.block{
+    width: 100px;
+    height: 20px;
+    background-color: #fffe01;
+    position: absolute;
+    box-shadow: 2px 4px 4px #ff0303;
+    justify-content: center;
+    text-align: center;
+}
+.user{
+    width: 100px;
+    height: 20px;
+    background-color: rgb(243 14 241);
+    position: absolute;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    /* font-weight: bold; */
+    
+}
+.ball{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+background-color: red;
+}
+#score{
+    border: 3px solid rgb(248, 0, 0);
+    height: 55px;
+    width: 86px;
+    margin: 10px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #eaa6ff;
+    justify-content: center;
+}
